@@ -1,0 +1,42 @@
+
+Validation of student 'jvgw34':
+------------------------------
+
+'NegSelTraining.py'      exists
+'NatAlgReal.py'          exists
+'NatAlgDiscreteA.py'     exists
+'NatAlgDiscreteB.py'     exists
+'NatAlgDiscreteC.py'     exists
+'WitnessA.txt'           exists
+'WitnessB.txt'           exists
+'WitnessC.txt'           exists
+'NegSelReport.pdf'       exists
+'NatAlgReport.pdf'       exists
+'validation.txt'         exists
+*** warning: '.DS_Store' is an illegal item
+
+for 'NegSelTraining.py':
+  username = 'jvgw34'; algorithm code = 'VD'
+for 'NatAlgReal.py':
+  username = 'jvgw34'; algorithm code = 'FF'
+for 'NatAlgDiscreteA.py':
+  username = 'jvgw34'; algorithm code = 'FF'; problem code = 'GC'; graph digit = 'A'
+for 'NatAlgDiscreteB.py':
+  username = 'jvgw34'; algorithm code = 'FF'; problem code = 'GC'; graph digit = 'B'
+for 'NatAlgDiscreteC.py':
+  username = 'jvgw34'; algorithm code = 'FF'; problem code = 'GC'; graph digit = 'C'
+
+for 'WitnessA.txt':
+  username = 'jvgw34'; algorithm code = 'FF'; problem code = 'GC'; graph digit = 'A'
+  parameters = [n = 128, num_cyc = 99999, N = 40, lambbda = 0.005, alpha = 0.5]
+  conflicts = 3; elapsed time = 59.6
+for 'WitnessB.txt':
+  username = 'jvgw34'; algorithm code = 'FF'; problem code = 'GC'; graph digit = 'B'
+  parameters = [n = 425, num_cyc = 99999, N = 40, lambbda = 0.005, alpha = 0.5]
+  conflicts = 16; elapsed time = 59.6
+for 'WitnessC.txt':
+  username = 'jvgw34'; algorithm code = 'FF'; problem code = 'GC'; graph digit = 'C'
+  parameters = [n = 900, num_cyc = 99999, N = 40, lambbda = 0.005, alpha = 0.5]
+  conflicts = 259; elapsed time = 59.8
+
+The submission has successfully validated! However, there were warnings.
